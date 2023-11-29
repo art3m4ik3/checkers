@@ -1,11 +1,7 @@
 import pygame
+from checkers.game import Game
+from checkers.cfg import WIN, FPS, WIDTH, HEIGHT, SQUARE_SIZE, RED
 
-FPS = 60
-WIDTH, HEIGHT = 800, 800
-ROWS, COLS = 8, 8
-SQUARE_SIZE = WIDTH // COLS
-
-WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Шашки')
 
 def main() -> None:
