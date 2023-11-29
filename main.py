@@ -24,4 +24,5 @@ def main() -> None:
 
     pygame.quit()
 
+
 main()
