@@ -1,4 +1,4 @@
-from .cfg import RED, WHITE, SQUARE_SIZE, GREY, CROWN
+from .cfg import WHITE, BLACK, SQUARE_SIZE, GREY, CROWN
 import pygame
 
 class Piece:
